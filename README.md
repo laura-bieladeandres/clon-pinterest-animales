@@ -39,44 +39,6 @@ src/
 
 ---
 
-## Requisitos previos
-
-Para ejecutar este proyecto necesitas tener instalado:
-
-- [Node.js](https://nodejs.org/) (versión 18 o superior)
-- [npm](https://www.npmjs.com/) (gestor de paquetes incluido con Node)
-
----
-
-## Instalación y ejecución
-
-1. **Clonar el repositorio:**
-   ```bash
-   git clone https://github.com/laura-bieladeandres/clon-pinterest-animales.git
-   cd clon-pinterest-animales
-   ```
-
-2. **Instalar dependencias:**
-   ```bash
-   npm install
-   ```
-
-3. **Crear archivo `.env.local`:**
-   En la raíz del proyecto, crea un archivo llamado `.env.local` con tu clave de la API de Unsplash:
-   ```
-   VITE_UNSPLASH_ACCESS_KEY=tu_clave_aquí
-   ```
-
-   > Puedes obtener tu clave registrándote en [Unsplash Developers](https://unsplash.com/developers).
-
-4. **Ejecutar el proyecto:**
-   ```bash
-   npm run dev
-   ```
-   Luego abre en tu navegador la dirección indicada (por defecto: [http://localhost:5173](http://localhost:5173)).
-
----
-
 ## Uso
 
 - Al abrir la página, se muestra una **galería inicial** con imágenes de animales.  
@@ -122,4 +84,4 @@ Año: 2025
 ---
 
 > Proyecto desarrollado para fines educativos.  
-> El código está preparado para su despliegue o subida a GitHub.
+> El código está prepardo para su despliegue o subida a GitHub.
