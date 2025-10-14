@@ -8,7 +8,7 @@ export function initApp() {
   const form = document.getElementById('search-form');
   const gallery = document.getElementById('gallery');
 
-  // 🔹 Render inicial de las imágenes fijas de initialPhotos
+  // Render inicial de las imágenes fijas de initialPhotos
   renderInitialGallery();
 
   // Función para manejar la búsqueda
@@ -28,7 +28,7 @@ export function initApp() {
     }
   }
 
-  // 🔹 Render de resultados desde la API de Unsplash
+  // Render de resultados desde la API de Unsplash
   function renderResults(photos) {
     if (!photos || photos.length === 0) {
       gallery.innerHTML = '<p>No se encontraron resultados 🐾</p>';
@@ -49,7 +49,7 @@ export function initApp() {
     `).join('');
   }
 
-  // 🔹 Render inicial desde initialPhotos
+  // Render inicial desde initialPhotos
   function renderInitialGallery() {
     gallery.innerHTML = initialPhotos.map(img => `
       <div class="image-card">
@@ -68,3 +68,4 @@ export function initApp() {
   // Evento submit
   form.addEventListener('submit', handleSearch);
 }
+
